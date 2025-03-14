@@ -2,6 +2,7 @@
 
 sudo dnf install -y nano
 sudo dnf install -y openssh-server
+sudo systemctl start sshd
 sudo systemctl enable --now sshd
 sudo systemctl status sshd
 
