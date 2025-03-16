@@ -150,7 +150,7 @@ Subsystem	sftp	/usr/libexec/openssh/sftp-server
 
 # Example of overriding settings on a per-user basis
 #Match User anoncvs
-	X11Forwarding no
+#	X11Forwarding no
 #	AllowTcpForwarding no
 #	PermitTTY no
 #	ForceCommand cvs server
