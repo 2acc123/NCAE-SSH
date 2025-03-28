@@ -10,6 +10,7 @@ ANSIBLE_GROUP="linux_group"
 # 1. Install Ansible (if not already installed)
 if ! command -v ansible &> /dev/null; then
     echo "Installing Ansible..."
+    #Change installation to specific machine installation command
     pip install ansible || { echo "Ansible installation failed"; exit 1; }
 fi
 
